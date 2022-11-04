@@ -1,0 +1,3 @@
+@media (min-width: 1200px) {
+    .site-header .header-inner, .site-header:not(.dynamic-header), .site-footer .footer-inner, .site-footer:not(.dynamic-footer), body:not([class*="elementor-page-"]) .site-main, .page-header .entry-title {
+      max-width: 1360px; }}

@@ -1,0 +1,38 @@
+/* -----------------------------------------slider -------------------------------------- */
+
+.products-tabs-title li {
+    list-style-type: none;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px 0;
+    padding-top: 3px;
+}
+
+.slideshow-container {
+    position: relative;
+    height: 20px;
+}
+
+
+/* Slides */
+
+
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}

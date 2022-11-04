@@ -1,0 +1,321 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+a {
+    color: #000000;
+}
+
+.site-logo img {
+    max-width: 50%;
+}
+
+.site-navigation ul.menu li {
+    text-transform: uppercase;
+}
+
+.tfc-search-bar {
+    text-align: right;
+    width: 55%;
+}
+
+.tfc-header-inner {
+    width: 1817px !important;
+    max-width: 100% !important;
+}
+
+.tfc-navbar {
+    max-width: 37% !important;
+    justify-content: flex-start !important;
+    height: 35px;
+}
+
+.tfc-site-header {
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.tfc-logo {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: 35px;
+}
+
+.tfc-navbar .menu .menu-item {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.tfc-mini-cart li {
+    list-style-type: none;
+}
+
+.widget_nav_menu {
+    list-style-type: none;
+}
+
+.tfc-mini-cart .widget {
+    margin-top: 0 !important;
+}
+
+.tfc-mini-cart {
+    height: 35px;
+    font-size: 14px !important;
+}
+
+.tfc-mini-cart .wc-block-mini-cart__button:hover {
+    background-color: #fff !important;
+    color: #000000 !important;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.widget {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.tfc-site-header {
+    padding-right: 20px;
+    padding-top: 0px;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+
+/* ------------------------- footer css------------------------------- */
+
+.tfc-widget-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    gap: 50px;
+}
+
+.widgettitle {
+    font-size: 16px;
+    color: #fff;
+}
+
+.tfc-footer {
+    background-color: #222222;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.tfc-footer-menu {
+    width: 135px;
+}
+
+.tfc-footer-menu .menu {
+    padding-left: 0;
+}
+
+.tfc-footer-menu .menu li a {
+    color: #fff;
+}
+
+.tfc-footer-logo img {
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.footer-inner .site-branding {
+    flex-direction: unset !important;
+    margin-top: 10px;
+    max-width: 35% !important;
+}
+
+.tfc-email-section {
+    width: 25%;
+}
+
+.tfc-email-heading {
+    color: #fff;
+    margin-top: 20px !important;
+}
+
+.tfc-footer-input {
+    width: 70% !important;
+    border-radius: 30px !important;
+}
+
+.tfc-footer-btn {
+    display: block;
+    margin-top: 10px;
+}
+
+.tfc-footer-btn {
+    width: 70%;
+    border-radius: 30px;
+}
+
+.tfc-stay-connected {
+    color: #fff;
+}
+
+.tfc-extra-pages {
+    margin-top: 90px;
+    width: inherit;
+    display: flex;
+}
+
+.tfc-copyright {
+    color: #fff;
+}
+
+#menu-another-menu {
+    display: flex;
+    margin: 6px;
+    padding-left: 5px;
+}
+
+#menu-another-menu li {
+    margin-right: 10px;
+}
+
+#menu-another-menu li a {
+    color: #fff;
+}
+
+
+/* ----------------------------- content-area css ----------------------------------------- */
+
+.content-area {
+    margin-top: 90px;
+}
+
+.page-content {
+    margin-top: 90px;
+}
+
+
+/* --------------------------------mobile view css ------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+    .footer-inner {
+        display: inherit !important;
+    }
+    .footer-inner .site-branding {
+        max-width: 100% !important;
+    }
+    .tfc-widget-footer {
+        width: 100%;
+    }
+    .tfc-email-section {
+        width: 100%;
+        text-align: center;
+    }
+    .tfc-footer-btn {
+        display: initial;
+    }
+    .tfc-extra-pages {
+        margin-top: 40px;
+        display: inherit;
+    }
+    .tfc-footer-icons {
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+    .tfc-footer-menu {
+        width: 100%;
+    }
+    /* ------------------------------------------header mobile css ---------------------------------------- */
+    .tfc-search-bar {
+        width: 42%;
+    }
+}
+
+/* -----------------------------------------slider -------------------------------------- */
+
+.products-tabs-title li {
+    list-style-type: none;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px 0;
+    padding-top: 3px;
+}
+
+.slideshow-container {
+    position: relative;
+    height: 20px;
+}
+
+
+/* Slides */
+
+.tfc-topbar-Slides {
+    display: none;
+    text-align: center;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.admin-bar .fixed-header {
+    position: fixed;
+    top: 32px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+    width: 100% !important;
+    padding: 10px 50px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+    width: 100% !important;
+    padding: 10px 50px;
+}
