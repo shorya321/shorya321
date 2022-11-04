@@ -336,6 +336,7 @@ function cfwc_display_custom_field()
 
 <?php }
 }
+
 add_action('woocommerce_before_add_to_cart_button', 'cfwc_display_custom_field');
 
 
